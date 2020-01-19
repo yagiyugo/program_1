@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main() {
+  int m, p;
+  float data, ma;
+  scanf("%d", &m);
+  ma = 0;
+  for (p = 0; p < m; p++) {
+    scanf("%f", &data);
+    if (ma == 0 || data > ma) ma = data;
+  }
+  printf("%f\n", ma);
+}

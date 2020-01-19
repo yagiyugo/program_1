@@ -1,0 +1,33 @@
+#include<stdio.h>
+
+int main(void) {
+  int n1, n2, n3, x1, x2, x3, c1, c2, c3, c4, c5;
+
+  scanf("%d %d %d", &n1, &n2, &n3);
+  
+  // A=2, B=3, O=5
+  if(n1==0){ x1=2; c1='AA'}
+  if(n1==1){ x1=6;}
+  if(n1==2){ x1=10;}
+  if(n1==3){ x1=3;}
+  if(n1==4){ x1=15;}
+  if(n1==5){ x1=5;}
+
+  if(n2==0) x2=2;
+  if(n2==1) x2=6;
+  if(n2==2) x2=10;
+  if(n2==3) x2=3;
+  if(n2==4) x2=15;
+  if(n2==5) x2=5;
+
+  if(n3==0) x3=2;
+  if(n3==1) x3=6;
+  if(n3==2) x3=10;
+  if(n3==3) x3=3;
+  if(n3==4) x3=15;
+  if(n3==5) x3=5;
+  
+  
+
+  return 0;
+}
